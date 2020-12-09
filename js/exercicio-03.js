@@ -6,12 +6,12 @@ function Teste() {
 
 
     if (numero1 > 100) {
-        document.getElementById("resultado").innerText = "Maior que 100";
+        document.getElementById("resultado").innerText = "Maior que 100.";
     }
     else if (numero1 < 100) {
-        document.getElementById("resultado").innerText = "Menor que 100";
+        document.getElementById("resultado").innerText = "Menor que 100.";
     }
     else{
-        document.getElementById("resultado").innerText = "Igual a 100"
+        document.getElementById("resultado").innerText = "Igual a 100."
     }
 }
